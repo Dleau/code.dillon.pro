@@ -1,13 +1,15 @@
 ---
 layout: post
-title:  "Forecasting cryptocurrency market metadata"
+title:  "Forecasting cryptocurrency markets"
 date:   2020-04-20 09:00:00 -4000
 categories: learning data 
 ---
 
-![Forecasting market highs]({{ site.url }}/assets/high_plot.png)
+Regression models can be leveraged to forecast economic markets. I used the [scikit-learn](https://scikit-learn.org/stable/index.html) library and a wealth of daily, hourly, and minute-by-minute data from [CryptoCompare](https://min-api.cryptocompare.com/) to model and predict cryptocurrency market metadata. With training, **Cryforecast** can predict highs, lows, openings, closings, and ingress and egress trading volumes for any cryptocurrency market.
 
-Regression models can be leveraged to forecast economic markets. I used the [scikit-learn](https://scikit-learn.org/stable/index.html) library and a wealth of daily, hourly, and minute-by-minute data from [CryptoCompare](https://min-api.cryptocompare.com/) to model and predict cryptocurrency market metadata. With training, **Cryforecast** can predict highs, lows, openings, closings, and ingress and egress trading volumes for any cryptocurrency market.  
+<p align="center">
+  <img src="/assets/high_plot.png" style="zoom:50%;">
+</p>
 
 ```python
 # update CryptoCompare data cache
