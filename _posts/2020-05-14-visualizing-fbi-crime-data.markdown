@@ -5,7 +5,7 @@ date:   2020-05-15 00:00:00 -4000
 categories: data 
 ---
 
-In highschool, I taught myself Python and created a Twitter-based API [@guardiancrime][twitter] that leveraged raw data from the [FBI Uniform Crime Report][ucr] to curate visualizations of local crime. With a tweet, users assessed property and violent crime in any one of nearly 10,000 American communities with available crime data. I recieved the FBI Outstanding Achievment Award for my work.
+In high school, I taught myself Python and created a Twitter-based API [@guardiancrime][twitter] that leveraged raw data from the [FBI Uniform Crime Report][ucr] to curate visualizations of local crime. With a tweet, users assessed property and violent crime in any one of nearly 10,000 American communities with available crime data. I recieved the FBI Outstanding Achievment Award for my work.
 
 <p align="center">
   <img src="/assets/guardian_twitter_screenshots.jpg" style="zoom:50%;">
